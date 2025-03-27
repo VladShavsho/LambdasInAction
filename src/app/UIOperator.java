@@ -7,11 +7,11 @@ public class UIOperator {
     public String result() {
         Calculator calculator = new Calculator();
         Function<String, Integer> func = StringListProcessor::countUppercase;
-        StringManipulator stringManipulator = new StringManipulator();
+        UppercaseStr uppercaseStr = new UppercaseStr();
         RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
 
         int result1 = calculator.res(5, 6);
-        String result2 = stringManipulator.str("hello world");
+        String result2 = uppercaseStr.resultStr("hello world");
         int result3 = randomNumberGenerator.generateRandomNumber(1, 100);
 
         String testStr = "Hello WorLd";
