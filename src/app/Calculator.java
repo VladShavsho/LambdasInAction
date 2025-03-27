@@ -10,7 +10,6 @@ public class Calculator {
             }
         };
 
-        int result = mathOperation.operation(a, b);
-        return result;
+        return mathOperation.operation(a, b);
     }
 }
